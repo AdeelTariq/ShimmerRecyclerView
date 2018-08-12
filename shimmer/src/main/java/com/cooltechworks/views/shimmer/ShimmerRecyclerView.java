@@ -105,8 +105,6 @@ public class ShimmerRecyclerView extends RecyclerView {
         mShimmerAdapter.setShimmerItemBackground(mShimmerItemBackground);
         mShimmerAdapter.setShimmerDuration(mShimmerDuration);
         mShimmerAdapter.setAnimationReversed(isAnimationReversed);
-
-        showShimmerAdapter();
     }
 
     /**
